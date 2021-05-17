@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IANES TECH - Excelência em Web</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript" src="./shoppingCart.js" async></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/Logo_ianes_red.png" id="imgLogo" width="150" class="d-inline-block align-top" alt="IANES TECH">
+              </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contato.html">Contato</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Cursos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./frontend.html">Front-end</a>
+                <a class="dropdown-item" href="./backend.html">Back-end</a>
+                <a class="dropdown-item" href="./bancoDeDados.html">Banco de Dados</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Acesso
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./acessoAlunos.html">Alunos</a>
+                <a class="dropdown-item" href="./acessoProfessor.html">Professores</a>
+                <a class="dropdown-item" href="./acessoDiretoria.html">Diretoria</a>
+            </li>
+          </ul>
+          <!-- NAVBAR / LOGAR / CADASTRAR -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="./login.html">Logar <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cadastrar ml-3" href="./cadastro.html">Cadastrar</a>
+              </li>
+            </ul>
+        </div>
+        </div>
+        </div>
+      </nav>
+      <!-- CONTEÚDO BACK END - SEÇÃO 1 -->
+
+      <div class="jumbotron marginTop text-center">
+        <h1 class="text-danger">Back-end</h1>
+        <p>O lado do servidor.</p>
+    </div>
+    <div class="container mt-5 cartItemm">
+        <div class="row">
+            <div class="col-md-6 mt-5">
+              <h3>Por que aprender Back-end?</h3>
+              <p class="mt-5 text-justify mb-5">Neste conteúdo, traremos o conceito de back-end, explicando-o 
+                  de uma forma simplificada e abordando as diferenças com o front-end e os tópicos que 
+                  merecem atenção ao programar nessa categoria.</p>
+              <h3>Habilidades que irá aprender</h3>
+              <p class="mt-5 text-justify">Neste curso, você será exposto aos conceitos fundamentais de programação Back-end.</p>
+            </div>
+            <div class="col-md-6 text-center mt-5 border p-1 cartRow">
+              <h4 class="bg-danger rounded text-white nameCart">Back end</h3>
+              <h3 class="jumbotron bg-light font-weight-bold priceCart">R$35</h3>
+              <p>Acesso total</p>
+              <p>Dúvidas ao vivo</p>
+              <p>Material Completo</p>
+              <p>Horário Flexível</p>
+              <p>Plataforma Interativa</p>
+              <p>Duração: 80 horas</p>
+              <a href="./carrinho.html"><button type="button" class="btn btn-danger btnCartItem">Comprar</button></a>
+            </div>
+        </div>
+    </div>
+
+      <!-- CONTEÚDO BACK END - SEÇÃO 2 -->
+
+      <div class="container containerCursos p-5 mt-5 mb-5">
+        <div class="container borderCursos bgCursos p-5">
+            <ul>
+                <li class="row">
+                  <h2 class="mr-5 corNumero">1</h2>
+                  <div class="column">
+                      <h2 class="text-danger">Introdução</h2>
+                      <p>Nesse curso você irá aprender o que é Back-end, visando seus conceitos básicos.</p>
+                  </div>
+                </li>
+                <hr>
+                <li class="row">
+                  <h2 class="mr-5 corNumero">2</h2>
+                  <div class="column">
+                      <h2 class="text-danger">PHP</h2>
+                      <p>Nesse curso você irá aprender do básico ao avançado de PHP</p>
+                  </div>
+                </li>
+                <hr>
+                <li class="row">
+                  <h2 class="mr-5 corNumero">3</h2>
+                  <div class="column">
+                      <h2 class="text-danger">Node.js</h2>
+                      <p>Nesse curso você irá aprender do básico ao avançado de Node.js</p>
+                  </div>
+                </li>
+                <hr>
+                <li class="row">
+                  <h2 class="mr-5 corNumero">4</h2>
+                  <div class="column">
+                      <h2 class="text-danger">C#</h2>
+                      <p>Nesse curso você irá aprender do básico ao avançado de C#</p>
+                  </div>
+                </li>
+                <hr>
+                <li class="row">
+                  <h2 class="mr-5 corNumero">5</h2>
+                  <div class="column">
+                      <h2 class="text-danger">Frameworks</h2>
+                      <p>Nesse curso você irá aprender do básico ao avançado de Frameworks</p>
+                  </div>
+                </li>
+                <hr>
+            </ul>
+        </div>
+    </div>
+
+      <!-- FOOTER -->
+
+      <div class="container-fluid pr-0 pl-0 mb-0">
+        <div class="jumbotron mb-0">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="column">
+                  <p class="text-danger">Produtos</p>
+                  <p>Front-End</p>
+                  <p>Back-end</p>
+                  <p>Banco de Dados</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="column">
+                  <p class="text-danger">Companhia</p>
+                  <p>Sobre nós</p>
+                  <p>História</p>
+                  <p>Missão</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="column">
+                  <p class="text-danger">Links</p>
+                  <a class="text-white" href="#">Mozilla</a><br>
+                  <a class="text-white" href="#">StackOverflow</a><br>
+                  <a class="text-white" href="#">w3schools</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>

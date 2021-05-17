@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IANES TECH - Excelência em Web</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./shoppingCart.js" async></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../img/Logo_ianes_red.png" id="imgLogo" width="150" class="d-inline-block align-top" alt="IANES TECH">
+              </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contato.html">Contato</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Cursos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./frontend.html">Front-end</a>
+                <a class="dropdown-item" href="./backend.html">Back-end</a>
+                <a class="dropdown-item" href="./bancoDeDados.html">Banco de Dados</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Acesso
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="./acessoAlunos.html">Alunos</a>
+                <a class="dropdown-item" href="./acessoProfessor.html">Professores</a>
+                <a class="dropdown-item" href="./acessoDiretoria.html">Diretoria</a>
+            </li>
+          </ul>
+          <!-- NAVBAR / LOGAR / CADASTRAR -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="./login.html">Logar <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link cadastrar ml-3" href="./cadastro.html">Cadastrar</a>
+              </li>
+            </ul>
+        </div>
+        </div>
+        </div>
+      </nav>
+      <!-- CONTEÚDO CARRINHO -->
+
+      <div class="container pagCadastro cartItems">
+          <div class="row">
+              <h1 class="mb-5">Carrinho de Compras</h1>
+              <table class="table">
+                  <thead class="thead-light">
+                      <tr>
+                          <th>Item</th>
+                          <th>Preço</th>
+                          <th>Quantidade</th>
+                          <th></th>
+                      </tr>
+                  </thead>
+                  <tbody class="tableItems">
+                      <tr class="cart-row" id="rowFront">
+                        <td>Front-end</td>
+                        <td class="cart-price">35</td>
+                        <form action="#" class="form-outline">
+                            <td><input class="form-control border border-dark quantityCart" type="number" name="#" id="quantidade1" style="width: 60px;"></td>
+                        </form>
+                        <td><button class="btn btn-danger btnCart" id="removerItem">Remover</button></td>
+                    </tr>
+                    <tr class="cart-row">
+                        <td>Back-end</td>
+                        <td class="cart-price">35</td>
+                        <form action="#" class="form-outline">
+                            <td><input class="form-control border border-dark quantityCart" type="number" name="#" id="quantidade1" style="width: 60px;"></td>
+                        </form>
+                        <td><button class="btn btn-danger btnCart" id="removerItem">Remover</button></td>
+                    </tr>
+                    <tr class="cart-row">
+                        <td>Banco de Dados</td>
+                        <td class="cart-price">35</td>
+                        <form action="#" class="form-outline">
+                            <td><input class="form-control border border-dark quantityCart" type="number" name="#" id="quantidade1" style="width: 60px;"></td>
+                        </form>
+                        <td><button class="btn btn-danger btnCart" id="removerItem">Remover</button></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><strong>Total:</strong></td>
+                        <td class="total-price">R$0</td>
+                        <td></td>
+                    </tr>     
+                  </tbody> 
+              </table>
+          </div>
+          <a href="./compraFinalizada.html"><button class="btn btn-primary" id="comprarItem">Comprar</button></a>
+      </div>
+      <script>
+      </script>
+</body>
+</html>

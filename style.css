@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Raleway:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-size: 1.25rem;
+    color: #000;
+}
+
+h2{
+    font-size: 2.625rem;
+}
+
+.sobreNos{
+    font-family: 'Raleway', sans-serif;
+}
+
+.sectionTwo h2{
+    color: rgb(255, 66, 77);
+    font-family: 'Raleway', sans-serif;
+}
+
+.sectionTwo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sectionThree h2{
+    color: rgb(255, 66, 77);
+    font-family: 'Raleway', sans-serif;
+}
+
+.sectionThree img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sectionFour h2{
+    color: rgb(255, 66, 77);
+    font-family: 'Raleway', sans-serif;
+}
+
+.sectionFour img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.sectionSix h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-link{
+    color: rgb(36, 30, 18) !important;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+#imgLogo{
+    height:60px;
+}
+
+.cadastrar{
+    padding: 7px;
+    background-color: rgb(255, 66, 77);
+    color: #fff !important;
+    border: 1px solid rgb(255, 66, 77);
+    border-radius: 50px;
+}
+
+.cadastrar:hover{
+    border: 1px solid rgb(255, 66, 77);;
+    color: rgb(255, 66, 77) !important;
+    background-color: rgb(248, 249, 250);
+    text-decoration: none;
+}
+
+.jumbotron{
+    border-radius: 0;
+    background: rgb(20, 21, 24);
+}
+
+.jumbotron h3{
+    color: rgb(255, 66, 77);
+    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 100px;
+}
+
+.jumbotron p{
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.jumbotron img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.imgHeader{
+    margin-top: 100px;
+}
+
+.btn-danger{
+    background-color: rgb(255, 66, 77);
+    border-radius: 9999px;
+    color: #fff;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.titleSlider{
+    color: rgb(255, 66, 77);
+    font-family: 'Raleway', sans-serif;
+}
+
+.rowPrecos{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 50px;
+    border-radius: 3px;
+}
+
+.pagCadastro{
+    margin-top: 120px;
+}
+
+.formulario{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 50px;
+    border-radius: 3px;
+}
+
+input:valid{
+    border: 1px solid green;
+}
+
+input:invalid{
+    border: 1px solid red;
+}
+
+.marginTop{
+    margin-top: 90px;
+}
+
+.containerCursos{
+    background: #f6f5fa;
+}
+
+.borderCursos{
+    border-left: .375rem solid rgb(255, 66, 77);
+}
+
+.bgCursos{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 50px;
+    border-radius: 3px;
+}
+
+.corNumero{
+    color: #646466;
+}
+
+@media only screen and (max-width: 991px){
+    .cadastrar{
+        padding: 0;
+        background-color: rgb(248, 249, 250);
+        color: rgb(36, 30, 18) !important;
+        border: 0;
+        border-radius: 0;
+        margin-left: 0 !important;
+        margin-top: 6px;
+    }
+    
+    .cadastrar:hover{
+        border: none;
+        color: #000 !important;
+        background-color: rgb(248, 249, 250) ;
+        text-decoration: underline;
+    }
+
+    p, h2{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .bgCursos{
+        padding-left: 0 !important;
+    }
+
+    .containerCursos{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    form{
+        width: 100% !important;
+    }
+
+    .botaoEnviar{
+        width: 320px !important;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .botaoEnviar{
+        width: 275px !important;
+    }
+}
